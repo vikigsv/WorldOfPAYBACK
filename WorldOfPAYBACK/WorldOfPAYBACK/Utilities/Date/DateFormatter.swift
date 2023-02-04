@@ -16,17 +16,19 @@ enum DateFormat: String {
 
 extension String {
     
-    func toDate(format: DateFormat) -> Date? {
+    func toNetworkDate() -> Date? {
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = format.rawValue
+        dateFormatter.dateFormat = DateFormat.networkDate.rawValue
         let date = dateFormatter.date(from: self)
         return date
     }
     
-    func dateString(of format: DateFormat, toFormat: DateFormat) -> String {
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = format.rawValue
-        if let date = dateFormatter.date(from: self) {
+    func dateString(toFormat: DateFormat, locale: Locale? = nil) -> String {
+        if let date = toNetworkDate() {
+            let dateFormatter = DateFormatter()
+            if let locale = locale {
+                dateFormatter.locale = locale
+            }   
             dateFormatter.dateFormat = toFormat.rawValue
             let dateString = dateFormatter.string(from: date)
             return dateString

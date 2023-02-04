@@ -62,8 +62,8 @@ extension Transaction.Item {
             self.description = description ?? ""
             self.bookingDate = bookingDate ?? ""
             self.value = value
-            self.bookingDateOnly = bookingDate?.dateString(of: .networkDate, toFormat: .displayDate) ?? ""
-            self.bookingTimeOnly = bookingDate?.dateString(of: .networkDate, toFormat: .displayTime) ?? ""
+            self.bookingDateOnly = bookingDate?.dateString(toFormat: .displayDate, locale: Locale.current) ?? ""
+            self.bookingTimeOnly = bookingDate?.dateString(toFormat: .displayTime, locale: Locale.current) ?? ""
         }
     }
     

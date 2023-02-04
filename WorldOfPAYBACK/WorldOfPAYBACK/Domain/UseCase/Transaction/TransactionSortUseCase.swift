@@ -32,8 +32,8 @@ extension TransactionSortUseCase {
         switch sortType {
         case .recent:
             return transactionItems.sorted { first, later in
-                guard let firstDate = first.transactionDetail.bookingDate.toDate(format: .networkDate),
-                      let laterDate = later.transactionDetail.bookingDate.toDate(format: .networkDate) else {
+                guard let firstDate = first.transactionDetail.bookingDate.toNetworkDate(),
+                      let laterDate = later.transactionDetail.bookingDate.toNetworkDate() else {
                     return false
                 }
                 return firstDate > laterDate

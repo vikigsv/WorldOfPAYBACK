@@ -54,8 +54,8 @@ final class TransactionTests: XCTestCase {
                         return
                     }
                     let nextItem = viewModel.transaction.filteredItems[index + 1]
-                    guard let currentDate = item.transactionDetail.bookingDate.toDate(format: .networkDate)?.timeIntervalSince1970,
-                          let nextDate = nextItem.transactionDetail.bookingDate.toDate(format: .networkDate)?.timeIntervalSince1970 else {
+                    guard let currentDate = item.transactionDetail.bookingDate.toNetworkDate()?.timeIntervalSince1970,
+                          let nextDate = nextItem.transactionDetail.bookingDate.toNetworkDate()?.timeIntervalSince1970 else {
                         XCTFail("Invalid Date")
                         return
                     }
