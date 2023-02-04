@@ -16,7 +16,7 @@ For demo purpose there is DemoTransactionRepo injected into the ViewModel:
 * Total Transaction amount.
 * Error view available when network fails and there is no data and reload button to retry.
 * XCTest cases included to validate the mock data representation and performance measurments.
-
+* Localization
 
 ### Requirements
 * Xcode 14.1
@@ -24,8 +24,12 @@ For demo purpose there is DemoTransactionRepo injected into the ViewModel:
 * SwiftUI
 * Combine
 
+### Supported devices:
+* iPhone
+* iPad
+
 ### Environment
-iOS 15.0+
+* iOS 15.0+
 
 ### External Dependency
 * NA
