@@ -47,7 +47,6 @@
 		2FB110BF298E774C008C9C3E /* BundleFileInventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB1107A298E774B008C9C3E /* BundleFileInventory.swift */; };
 		2FB110C0298E774C008C9C3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FB1107B298E774B008C9C3E /* Assets.xcassets */; };
 		2FB110C1298E774C008C9C3E /* SystemImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB1107C298E774B008C9C3E /* SystemImage.swift */; };
-		2FB110C2298E774C008C9C3E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2FB1107D298E774B008C9C3E /* README.md */; };
 		2FB110C3298E774C008C9C3E /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB1107E298E774B008C9C3E /* ColorPalette.swift */; };
 		2FB110C4298E774C008C9C3E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2FB11080298E774B008C9C3E /* Localizable.strings */; };
 		2FB110C5298E774C008C9C3E /* LocalizableKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB11083298E774B008C9C3E /* LocalizableKey.swift */; };
@@ -131,7 +130,6 @@
 		2FB1107A298E774B008C9C3E /* BundleFileInventory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleFileInventory.swift; sourceTree = "<group>"; };
 		2FB1107B298E774B008C9C3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FB1107C298E774B008C9C3E /* SystemImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemImage.swift; sourceTree = "<group>"; };
-		2FB1107D298E774B008C9C3E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2FB1107E298E774B008C9C3E /* ColorPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
 		2FB11081298E774B008C9C3E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2FB11082298E774B008C9C3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -447,7 +445,6 @@
 		2FB11076298E774B008C9C3E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2FB1107D298E774B008C9C3E /* README.md */,
 				2FB110DF298EE0C1008C9C3E /* TASK.md */,
 				2FB1107B298E774B008C9C3E /* Assets.xcassets */,
 				2FB11077298E774B008C9C3E /* Colors.xcassets */,
@@ -739,7 +736,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FB110C2298E774C008C9C3E /* README.md in Resources */,
 				2FB110BD298E774C008C9C3E /* Colors.xcassets in Resources */,
 				2FB11021298E7711008C9C3E /* Preview Assets.xcassets in Resources */,
 				2FB110C4298E774C008C9C3E /* Localizable.strings in Resources */,
