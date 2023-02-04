@@ -31,8 +31,8 @@ struct ErrorView: View {
                         .foregroundColor(.gray)
                     
                     Button(.localized(.ok), action: action)
-                        .buttonStyle(.plain)
-                        .background(Color.palette(.primary))
+                        .buttonStyle(.borderedProminent)
+                        .tint(Color.palette(.primary))
                     Spacer()
                 }
                 Spacer()

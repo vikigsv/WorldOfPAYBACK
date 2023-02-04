@@ -25,7 +25,7 @@ struct TransactionDetailsView: View {
                 Spacer()
             }
             HStack {
-                Text(.localized(.detail))
+                Text(.localized(.description))
                     .primarySubHeadline()
                 Text(viewModel.item.transactionDetail.description)
                     .subHeadline()

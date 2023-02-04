@@ -28,5 +28,5 @@
 // Transaction Details View
 "transactionDetails" = "Transaction Detail";
 "partnerName" = "Partner Name:";
-"detail" = "Detail:";
+"description" = "Description:";
 

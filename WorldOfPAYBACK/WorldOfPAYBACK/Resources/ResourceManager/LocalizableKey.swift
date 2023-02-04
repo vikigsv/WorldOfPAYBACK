@@ -14,7 +14,7 @@ enum LocalizableKey: String {
     case success
     case failed
     case all
-    case detail
+    case description
     case recent
     case ok
     case cancel

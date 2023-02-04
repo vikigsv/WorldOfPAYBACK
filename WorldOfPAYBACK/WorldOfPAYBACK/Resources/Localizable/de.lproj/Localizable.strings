@@ -7,3 +7,25 @@
 */
 
 "hello" = "Hallo Welt!";
+
+//Common
+"success" = "Success";
+"failed" = "Failed";
+"recent" = "Recent";
+"all" = "All";
+"ok" = "OK";
+"cancel" = "Cancel";
+"errorNoInternet" = "No internet";
+"errorSomethingWrong" = "Something went wrong";
+
+// Transaction View
+"transaction" = "Transaction";
+"totalAmount" = "Total Amount:";
+"categoryA" = "Category A";
+"categoryB" = "Category B";
+"categoryC" = "Category C";
+
+// Transaction Details View
+"transactionDetails" = "Transaction Detail";
+"partnerName" = "Partner Name:";
+"description" = "Description:";
